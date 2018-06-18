@@ -13,6 +13,7 @@
 ##See the License for the specific language governing permissions and
 ##limitations under the License.
 #set($layout = "/templates/governance/layout/default.vm")
+#parse($layout)
 <div class="ico_btn">
     #if($currentUser.role != "G")
         <a href="weights/add"><img src="$rootContextPath.getURI("images/ico_add.png")"

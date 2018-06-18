@@ -83,7 +83,7 @@
         </div>
         <div class="contentbox_tab">
             <div id="con_two_1">
-                $screen_content
+##                $screen_content
             </div>
         </div>
     </div>

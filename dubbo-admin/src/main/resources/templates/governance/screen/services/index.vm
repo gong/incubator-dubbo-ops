@@ -13,6 +13,7 @@
 ##See the License for the specific language governing permissions and
 ##limitations under the License.
 #set($layout = "/templates/governance/layout/default.vm")
+#parse($layout)
 #if(! $services || $services.size() == 0)
 <font color="red">#springMessage("not.found")</font> (<a href="services?keyword=*">#springMessage("show.all")</a>)
 #elseif($keyword && $services.size() == 1)

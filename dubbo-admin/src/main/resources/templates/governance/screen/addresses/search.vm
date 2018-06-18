@@ -13,6 +13,7 @@
 ##See the License for the specific language governing permissions and
 ##limitations under the License.
 #set($layout = "/templates/governance/layout/search.vm")
+#parse($layout)
 [#foreach($address in $addresses)
     #if ($velocityCount > 1),#end
 "$address"

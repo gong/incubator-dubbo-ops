@@ -13,6 +13,7 @@
 ##See the License for the specific language governing permissions and
 ##limitations under the License.
 #set($layout = "/templates/governance/layout/noServicePrivilege.vm")
+#parse($layout)
 <div id="alertBox" style="display: none; position: absolute; left: 200px; top: 200px; width: 720px; height: 300px;">
     <table style="background-image: url('#if($success)$rootContextPath.getURI(
         "images/tip_succeed.png")#else$rootContextPath.getURI("images/tip_del.png")#end');" width="720" height="300">
